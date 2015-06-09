@@ -24,3 +24,8 @@ number2 = 7839
 answer = number1 * number2
 
 puts "#{number1} multiplied by #{number2} is #{answer}!"
+
+# PROBLEM THREE
+
+puts (true && false) || (false && true) || !(false && false)
+
